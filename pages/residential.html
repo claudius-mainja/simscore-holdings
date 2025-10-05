@@ -18,8 +18,9 @@
         }
     </style>
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/src/about.css">
 </head>
-<body class="antialiased">
+<body class="antialiased bg-[#000066] text-white">
     <!-- Accessibility Skip Link -->
     <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-white focus:text-[#000066] focus:rounded">Skip to main content</a>
 
@@ -130,10 +131,343 @@
     <!--Navbar Ends-->
 
     <!-- Main Content -->
-    <main id="main-content">
+    <main id="main-content" >
 
+              <!-- Hero Section -->
+      <section
+        class="relative h-screen flex items-center text-white overflow-hidden"
+        role="banner"
+        style="
+          background-image: url('/assets/images/residential\ hero.png');
+          background-size: cover;
+          background-position: center;
+          background-attachment: fixed;
+        "
+      >
+        <!-- Gradient Overlay -->
+        <div
+          class="absolute inset-0 bg-gradient-to-br from-[#000066]/80 to-[#141475]/75 mix-blend-multiply"
+        ></div>
 
+        <!-- Cleaning Theme Decorations - Bubbles -->
+        <div class="absolute inset-0 opacity-20 pointer-events-none">
+          <div
+            class="absolute left-[10%] bottom-0 w-[60px] h-[60px] bg-white/30 rounded-full animate-[bubble_4s_ease-in-out_infinite]"
+          ></div>
+          <div
+            class="absolute left-[25%] bottom-0 w-[40px] h-[40px] bg-white/30 rounded-full animate-[bubble_4s_ease-in-out_1s_infinite]"
+          ></div>
+          <div
+            class="absolute left-[70%] bottom-0 w-[80px] h-[80px] bg-white/30 rounded-full animate-[bubble_4s_ease-in-out_0.5s_infinite]"
+          ></div>
+          <div
+            class="absolute left-[85%] bottom-0 w-[50px] h-[50px] bg-white/30 rounded-full animate-[bubble_4s_ease-in-out_1.5s_infinite]"
+          ></div>
+          <div
+            class="absolute left-[50%] bottom-0 w-[35px] h-[35px] bg-white/30 rounded-full animate-[bubble_4s_ease-in-out_2s_infinite]"
+          ></div>
+        </div>
 
+        <!-- Sparkle effects -->
+        <div class="absolute inset-0 opacity-60 pointer-events-none">
+          <div
+            class="absolute top-[15%] left-[20%] w-1 h-1 bg-white rounded-full animate-[sparkle_2s_ease-in-out_infinite]"
+          ></div>
+          <div
+            class="absolute top-[25%] left-[80%] w-1 h-1 bg-white rounded-full animate-[sparkle_2s_ease-in-out_0.5s_infinite]"
+          ></div>
+          <div
+            class="absolute top-[40%] left-[15%] w-1 h-1 bg-white rounded-full animate-[sparkle_2s_ease-in-out_1s_infinite]"
+          ></div>
+          <div
+            class="absolute top-[60%] left-[85%] w-1 h-1 bg-white rounded-full animate-[sparkle_2s_ease-in-out_1.5s_infinite]"
+          ></div>
+          <div
+            class="absolute top-[75%] left-[40%] w-1 h-1 bg-white rounded-full animate-[sparkle_2s_ease-in-out_2s_infinite]"
+          ></div>
+          <div
+            class="absolute top-[35%] left-[60%] w-1 h-1 bg-white rounded-full animate-[sparkle_2s_ease-in-out_0.8s_infinite]"
+          ></div>
+          <div
+            class="absolute top-[55%] left-[25%] w-1 h-1 bg-white rounded-full animate-[sparkle_2s_ease-in-out_1.2s_infinite]"
+          ></div>
+          <div
+            class="absolute top-[70%] left-[75%] w-1 h-1 bg-white rounded-full animate-[sparkle_2s_ease-in-out_1.8s_infinite]"
+          ></div>
+        </div>
+
+        <!-- Background decoration -->
+        <div class="absolute inset-0 opacity-10 pointer-events-none">
+          <div
+            class="absolute top-20 right-10 w-72 h-72 bg-white rounded-full blur-3xl animate-[float_6s_ease-in-out_infinite]"
+          ></div>
+          <div
+            class="absolute bottom-20 left-10 w-96 h-96 bg-[#C70000] rounded-full blur-3xl animate-[float_4s_ease-in-out_infinite]"
+          ></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto relative z-10 px-4">
+          <div class="text-center max-w-4xl mx-auto">
+            <!-- Cleaning icon/badge -->
+            <div class="mb-8 opacity-0 animate-[fadeInUp_1s_ease-out_forwards]">
+              <div
+                class="inline-flex items-center justify-center w-20 h-20 bg-white/10 backdrop-blur-sm rounded-full border-2 border-white/20 mb-4"
+              >
+                <svg
+                  class="w-10 h-10 text-white"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+
+            <h1
+              class="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 opacity-0 animate-[fadeInUp_1s_ease-out_forwards]"
+            >
+             Residential Services
+            </h1>
+
+            <p
+              class="text-lg md:text-xl mb-8 leading-relaxed opacity-0 animate-[fadeInUp_1s_ease-out_0.2s_forwards] max-w-3xl mx-auto"
+            >
+           Enjoy a spotless home without the stress—let Simscore Holdings handle the cleaning while you focus on what matters most.
+            </p>
+
+            <!-- Trust indicators -->
+            <div
+              class="flex flex-wrap justify-center gap-6 mb-8 opacity-0 animate-[fadeInUp_1s_ease-out_0.2s_forwards]"
+            >
+              <div
+                class="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-md"
+              >
+                <span class="text-sm font-semibold">Regular Cleaning</span>
+              </div>
+              <div
+                class="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-md"
+              >
+                <span class="text-sm font-semibold">Deep Cleaning</span>
+              </div>
+              <div
+                class="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-md"
+              >
+                <span class="text-sm font-semibold">Special Occasions</span>
+              </div>
+            </div>
+
+            <div class="opacity-0 animate-[fadeInUp_1s_ease-out_0.4s_forwards]">
+              <a
+                href="#contact"
+                class="inline-block bg-[#C70000] hover:bg-red-700 text-white font-semibold px-10 py-4 rounded-md transition-all duration-300 shadow-lg hover:shadow-2xl hover:scale-105"
+                aria-label="Get your free quote today"
+              >
+        Book Your Cleaning Today
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Wave SVG -->
+        <div class="absolute bottom-0 left-0 w-full">
+          <svg
+            viewBox="0 0 1440 120"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-full h-auto"
+          >
+            <path
+              d="M0 0L60 10C120 20 240 40 360 46.7C480 53 600 47 720 43.3C840 40 960 40 1080 46.7C1200 53 1320 67 1380 73.3L1440 80V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0V0Z"
+              fill="white"
+            />
+          </svg>
+        </div>
+      </section>
+      <!--end of hero section-->
+
+ <!-- Residential Services Section -->
+  <section id="residential" class="py-20 bg-[#000066] text-white relative overflow-hidden">
+    <!-- Animated Background Elements -->
+    <div class="absolute inset-0 overflow-hidden pointer-events-none">
+      <div class="absolute top-20 left-10 w-64 h-64 bg-[#C70000] rounded-full opacity-10 blur-3xl animate-bounce"></div>
+      <div class="absolute bottom-20 right-10 w-96 h-96 bg-white rounded-full opacity-5 blur-3xl animate-pulse"></div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+
+      <!-- Regular Home Cleaning Section -->
+      <div class="grid md:grid-cols-2 gap-16 items-center mb-24">
+        <div class="space-y-8 animate-fade-in">
+          <div>
+
+            <h3 class="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
+              Regular Home Cleaning Services
+            </h3>
+            <p class="text-gray-200 text-lg leading-relaxed mb-6">
+              Experience the luxury of returning to a spotlessly clean home every day. Our regular cleaning service is tailored to your unique needs and schedule, ensuring your home remains a peaceful retreat without any effort on your part.
+            </p>
+            <p class="text-gray-300 leading-relaxed">
+              We understand that every home is different. That's why we offer flexible scheduling—weekly, bi-weekly, or monthly—and customize our cleaning approach to match your lifestyle and priorities. From busy professionals to growing families, we've got you covered.
+            </p>
+          </div>
+
+          <div class="space-y-4">
+            <div class="flex items-start group p-4 rounded-xl transition-all duration-300 hover:bg-[#C70000] hover:bg-opacity-5">
+              <span class="text-[#C70000] text-2xl mr-4 transition-transform duration-300 group-hover:scale-125 group-hover:rotate-12">✓</span>
+              <div>
+                <h4 class="text-white font-['Montserrat'] text-lg mb-1">Kitchen Deep Clean</h4>
+                <p class="text-gray-300 text-sm">Complete sanitization of countertops, sinks, and appliances. We tackle grease, grime, and food residue, leaving your kitchen sparkling and hygienic.</p>
+              </div>
+            </div>
+            
+            <div class="flex items-start group p-4 rounded-xl transition-all duration-300 hover:bg-[#C70000] hover:bg-opacity-5">
+              <span class="text-[#C70000] text-2xl mr-4 transition-transform duration-300 group-hover:scale-125 group-hover:rotate-12">✓</span>
+              <div>
+                <h4 class="text-white font-['Montserrat'] text-lg mb-1">Bathroom Sanitization</h4>
+                <p class="text-gray-300 text-sm">Professional descaling, disinfection of all surfaces, and thorough cleaning of toilets, showers, and tiles. Say goodbye to soap scum and hard water stains.</p>
+              </div>
+            </div>
+            
+            <div class="flex items-start group p-4 rounded-xl transition-all duration-300 hover:bg-[#C70000] hover:bg-opacity-5">
+              <span class="text-[#C70000] text-2xl mr-4 transition-transform duration-300 group-hover:scale-125 group-hover:rotate-12">✓</span>
+              <div>
+                <h4 class="text-white font-['Montserrat'] text-lg mb-1">Living Area Refresh</h4>
+                <p class="text-gray-300 text-sm">Comprehensive dusting of all surfaces, vacuuming and mopping of floors, and careful attention to high-traffic areas and forgotten corners.</p>
+              </div>
+            </div>
+            
+            <div class="flex items-start group p-4 rounded-xl transition-all duration-300 hover:bg-[#C70000] hover:bg-opacity-5">
+              <span class="text-[#C70000] text-2xl mr-4 transition-transform duration-300 group-hover:scale-125 group-hover:rotate-12">✓</span>
+              <div>
+                <h4 class="text-white font-['Montserrat'] text-lg mb-1">Bedroom Care</h4>
+                <p class="text-gray-300 text-sm">Gentle dusting, linen changes (optional), closet organization assistance, and creating a peaceful, allergen-free sleeping environment.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="animate-fade-in">
+          <div class="relative">
+            <div class="absolute -inset-4 bg-[#C70000] rounded-3xl opacity-20 blur-2xl animate-pulse"></div>
+            <img
+              src="/assets/images/resmain1.png"
+              alt="Clean modern home interior"
+              class="relative rounded-3xl shadow-2xl transition-transform duration-500 hover:scale-105 w-full"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Deep Cleaning Section -->
+      <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
+        <div class="order-2 md:order-1 animate-fade-in">
+          <div class="relative">
+            <div class="absolute -inset-4 bg-white rounded-3xl opacity-10 blur-2xl animate-pulse"></div>
+            <img
+              src="/assets/images/resmain2.png"
+              alt="Deep cleaning in progress"
+              class="relative rounded-3xl shadow-2xl transition-transform duration-500 hover:scale-105 w-full"
+            />
+          </div>
+        </div>
+        
+        <div class="order-1 md:order-2 space-y-8 animate-fade-in">
+          <div>
+
+            <h3 class="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
+              Deep Cleaning & Special Occasions
+            </h3>
+            <p class="text-gray-200 text-lg leading-relaxed mb-6">
+              When your home needs more than routine maintenance, our deep cleaning service delivers exceptional results. Perfect for seasonal refreshes, pre-event preparation, or moving transitions—we restore your home to pristine condition from top to bottom.
+            </p>
+            <p class="text-gray-300 leading-relaxed">
+              Our deep cleaning goes beyond surface-level tidying. We reach the areas that often get overlooked, tackle stubborn buildup, and refresh every corner of your space. It's the ultimate reset button for your home.
+            </p>
+          </div>
+
+          <div class="space-y-4">
+            <div class="flex items-start group p-4 rounded-xl transition-all duration-300 hover:bg-[#C70000] hover:bg-opacity-5">
+              <span class="text-[#C70000] text-2xl mr-4 transition-transform duration-300 group-hover:scale-125 group-hover:rotate-12">✓</span>
+              <div>
+                <h4 class="text-white font-['Montserrat'] text-lg mb-1">Move-In/Move-Out Service</h4>
+                <p class="text-gray-300 text-sm">Comprehensive cleaning of empty properties including inside cabinets, appliances, windows, and all surfaces. Perfect for landlords and new homeowners.</p>
+              </div>
+            </div>
+            
+            <div class="flex items-start group p-4 rounded-xl transition-all duration-300 hover:bg-[#C70000] hover:bg-opacity-5">
+              <span class="text-[#C70000] text-2xl mr-4 transition-transform duration-300 group-hover:scale-125 group-hover:rotate-12">✓</span>
+              <div>
+                <h4 class="text-white font-['Montserrat'] text-lg mb-1">Seasonal Deep Clean</h4>
+                <p class="text-gray-300 text-sm">Intensive spring cleaning, winter preparation, or post-holiday restoration. We clean baseboards, ceiling fans, light fixtures, and all those hard-to-reach places.</p>
+              </div>
+            </div>
+            
+            <div class="flex items-start group p-4 rounded-xl transition-all duration-300 hover:bg-[#C70000] hover:bg-opacity-5">
+              <span class="text-[#C70000] text-2xl mr-4 transition-transform duration-300 group-hover:scale-125 group-hover:rotate-12">✓</span>
+              <div>
+                <h4 class="text-white font-['Montserrat'] text-lg mb-1">Carpet & Upholstery Renewal</h4>
+                <p class="text-gray-300 text-sm">Professional steam cleaning and stain removal for carpets, rugs, sofas, and curtains. Restore freshness and extend the life of your furnishings.</p>
+              </div>
+            </div>
+            
+            <div class="flex items-start group p-4 rounded-xl transition-all duration-300 hover:bg-[#C70000] hover:bg-opacity-5">
+              <span class="text-[#C70000] text-2xl mr-4 transition-transform duration-300 group-hover:scale-125 group-hover:rotate-12">✓</span>
+              <div>
+                <h4 class="text-white font-['Montserrat'] text-lg mb-1">Outdoor Space Tidying</h4>
+                <p class="text-gray-300 text-sm">Garden cleanup, patio pressure washing, window washing (exterior), and outdoor furniture cleaning to enhance your home's curb appeal.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Why Choose Us Section -->
+      <div class="mt-24 mb-16">
+        <h3 class="text-4xl font-bold text-center text-white mb-12 animate-fade-in">Why Homeowners Trust Us</h3>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="backdrop-blur-sm bg-white/5 border border-white border-opacity-10 p-8 rounded-2xl text-center transition-transform duration-500 hover:scale-105 animate-fade-in-up">
+            <h4 class="text-xl font-bold text-white mb-3">Fully Trainned & Vetted</h4>
+            <p class="text-gray-300">All our cleaners are background-checked and trained. Your home's safety and security are our top priorities.</p>
+          </div>
+          
+          <div class="backdrop-blur-sm bg-white/5 border border-white border-opacity-10 p-8 rounded-2xl text-center transition-transform duration-500 hover:scale-105 animate-fade-in-up">
+            <h4 class="text-xl font-bold text-white mb-3">Eco-Friendly Products</h4>
+            <p class="text-gray-300">We use environmentally safe cleaning solutions that are tough on dirt but gentle on your family and pets</p>
+          </div>
+          
+          <div class="backdrop-blur-sm bg-white/5 border border-white border-opacity-10 p-8 rounded-2xl text-center transition-transform duration-500 hover:scale-105 animate-fade-in-up">
+            <h4 class="text-xl font-bold text-white mb-3">Satisfaction Guaranteed</h4>
+            <p class="text-gray-300">Not happy with our service? We'll return within 24 hours to make it right—no questions asked. Your happiness is our mission.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA Section -->
+      <div class="mt-20 text-center backdrop-blur-sm bg-white/5 border border-white border-opacity-10 p-12 rounded-3xl animate-fade-in-up">
+        <h3 class="text-3xl font-bold text-white mb-4">Ready to Experience a Cleaner Home?</h3>
+        <p class="text-gray-200 mb-8 max-w-2xl mx-auto">
+          Join hundreds of satisfied homeowners who trust us with their cleaning needs. Schedule your first cleaning today and discover the difference professional care makes.
+        </p>
+        <a
+          href="mailto:info@simscore.co.zw" target="_blank"
+          class="inline-block bg-[#C70000] text-white px-12 py-5 rounded-xl hover:bg-[#A00000] transition-all duration-300 transform hover:scale-105 font-bold text-lg shadow-2xl"
+        >
+            Book Your Cleaning Now
+        </a>
+        <div class="mt-6 text-gray-300 text-sm">
+          <span>✨ First-time customers receive 15% off their initial service</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- End of Residential Services Section -->
 
 
             <!-- Contact Section -->

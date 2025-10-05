@@ -18,6 +18,8 @@
         }
     </style>
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="/src/about.css">
 </head>
 <body class="antialiased">
     <!-- Accessibility Skip Link -->
@@ -132,8 +134,403 @@
     <!-- Main Content -->
     <main id="main-content">
 
+              <!-- Hero Section -->
+      <section
+        class="relative h-screen flex items-center text-white overflow-hidden"
+        role="banner"
+        style="
+          background-image: url('/assets/images/commercial\ hero.png');
+          background-size: cover;
+          background-position: center;
+          background-attachment: fixed;
+        "
+      >
+        <!-- Gradient Overlay -->
+        <div
+          class="absolute inset-0 bg-gradient-to-br from-[#000066]/80 to-[#141475]/75 mix-blend-multiply"
+        ></div>
 
+        <!-- Cleaning Theme Decorations - Bubbles -->
+        <div class="absolute inset-0 opacity-20 pointer-events-none">
+          <div
+            class="absolute left-[10%] bottom-0 w-[60px] h-[60px] bg-white/30 rounded-full animate-[bubble_4s_ease-in-out_infinite]"
+          ></div>
+          <div
+            class="absolute left-[25%] bottom-0 w-[40px] h-[40px] bg-white/30 rounded-full animate-[bubble_4s_ease-in-out_1s_infinite]"
+          ></div>
+          <div
+            class="absolute left-[70%] bottom-0 w-[80px] h-[80px] bg-white/30 rounded-full animate-[bubble_4s_ease-in-out_0.5s_infinite]"
+          ></div>
+          <div
+            class="absolute left-[85%] bottom-0 w-[50px] h-[50px] bg-white/30 rounded-full animate-[bubble_4s_ease-in-out_1.5s_infinite]"
+          ></div>
+          <div
+            class="absolute left-[50%] bottom-0 w-[35px] h-[35px] bg-white/30 rounded-full animate-[bubble_4s_ease-in-out_2s_infinite]"
+          ></div>
+        </div>
 
+        <!-- Sparkle effects -->
+        <div class="absolute inset-0 opacity-60 pointer-events-none">
+          <div
+            class="absolute top-[15%] left-[20%] w-1 h-1 bg-white rounded-full animate-[sparkle_2s_ease-in-out_infinite]"
+          ></div>
+          <div
+            class="absolute top-[25%] left-[80%] w-1 h-1 bg-white rounded-full animate-[sparkle_2s_ease-in-out_0.5s_infinite]"
+          ></div>
+          <div
+            class="absolute top-[40%] left-[15%] w-1 h-1 bg-white rounded-full animate-[sparkle_2s_ease-in-out_1s_infinite]"
+          ></div>
+          <div
+            class="absolute top-[60%] left-[85%] w-1 h-1 bg-white rounded-full animate-[sparkle_2s_ease-in-out_1.5s_infinite]"
+          ></div>
+          <div
+            class="absolute top-[75%] left-[40%] w-1 h-1 bg-white rounded-full animate-[sparkle_2s_ease-in-out_2s_infinite]"
+          ></div>
+          <div
+            class="absolute top-[35%] left-[60%] w-1 h-1 bg-white rounded-full animate-[sparkle_2s_ease-in-out_0.8s_infinite]"
+          ></div>
+          <div
+            class="absolute top-[55%] left-[25%] w-1 h-1 bg-white rounded-full animate-[sparkle_2s_ease-in-out_1.2s_infinite]"
+          ></div>
+          <div
+            class="absolute top-[70%] left-[75%] w-1 h-1 bg-white rounded-full animate-[sparkle_2s_ease-in-out_1.8s_infinite]"
+          ></div>
+        </div>
+
+        <!-- Background decoration -->
+        <div class="absolute inset-0 opacity-10 pointer-events-none">
+          <div
+            class="absolute top-20 right-10 w-72 h-72 bg-white rounded-full blur-3xl animate-[float_6s_ease-in-out_infinite]"
+          ></div>
+          <div
+            class="absolute bottom-20 left-10 w-96 h-96 bg-[#C70000] rounded-full blur-3xl animate-[float_4s_ease-in-out_infinite]"
+          ></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto relative z-10 px-4">
+          <div class="text-center max-w-4xl mx-auto">
+            <!-- Cleaning icon/badge -->
+            <div class="mb-8 opacity-0 animate-[fadeInUp_1s_ease-out_forwards]">
+              <div
+                class="inline-flex items-center justify-center w-20 h-20 bg-white/10 backdrop-blur-sm rounded-full border-2 border-white/20 mb-4"
+              >
+                <svg
+                  class="w-10 h-10 text-white"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+
+            <h1
+              class="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 opacity-0 animate-[fadeInUp_1s_ease-out_forwards]"
+            >
+        Commercial Services
+            </h1>
+
+            <p
+              class="text-lg md:text-xl mb-8 leading-relaxed opacity-0 animate-[fadeInUp_1s_ease-out_0.2s_forwards] max-w-3xl mx-auto"
+            >
+   Keep your business shining with reliable cleaning solutions that impress clients and support productivity.
+            </p>
+
+            <!-- Call to Action Button -->
+            <div class="opacity-0 animate-[fadeInUp_1s_ease-out_0.4s_forwards]">
+              <a
+                href="mailto:info@simscore.co.zw"
+                class="inline-block bg-[#C70000] hover:bg-red-700 text-white font-semibold px-10 py-4 rounded-md transition-all duration-300 shadow-lg hover:shadow-2xl hover:scale-105"
+                aria-label="Get your free quote today"
+              >
+        Book Now
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Wave SVG -->
+        <div class="absolute bottom-0 left-0 w-full">
+          <svg
+            viewBox="0 0 1440 120"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-full h-auto"
+          >
+            <path
+              d="M0 0L60 10C120 20 240 40 360 46.7C480 53 600 47 720 43.3C840 40 960 40 1080 46.7C1200 53 1320 67 1380 73.3L1440 80V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0V0Z"
+              fill="white"
+            />
+          </svg>
+        </div>
+      </section>
+      <!--end of hero section-->
+
+        <!-- Commercial Services Section -->
+  <section id="commercial" class="py-20 bg-white relative overflow-hidden">
+    <!-- Animated Background Elements -->
+    <div class="absolute inset-0 overflow-hidden pointer-events-none">
+      <div class="absolute top-10 right-20 w-72 h-72 bg-[#000066] rounded-full opacity-5 blur-3xl animate-pulse"></div>
+      <div class="absolute bottom-10 left-20 w-96 h-96 bg-[#C70000] rounded-full opacity-5 blur-3xl animate-bounce"></div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <!-- Services Grid -->
+      <div class="grid md:grid-cols-3 gap-10 mb-16">
+        <!-- Office Cleaning Card -->
+        <div class="bg-gradient-to-b from-gray-50 to-white p-8 rounded-3xl transition-all duration-500 hover:shadow-2xl hover:-translate-y-3 border border-gray-100 animate-fade-in group">
+          <div class="mb-6 overflow-hidden rounded-2xl">
+            <img
+              src="/assets/images/commercial 1.png"
+              alt="Office cleaning"
+              class="w-full h-56 object-cover transition-transform duration-700 group-hover:scale-110"
+            />
+          </div>
+          
+          <div class="mb-4">
+            <span class="text-[#C70000] text-xs font-semibold tracking-wider uppercase bg-red-50 px-3 py-1 rounded-md">Most Popular</span>
+          </div>
+          
+          <h3 class="text-3xl font-bold text-[#000066] mb-4">
+            Office Cleaning
+          </h3>
+          
+          <p class="text-gray-600 mb-4 leading-relaxed">
+            Create a workspace that inspires productivity and impresses clients. Our daily office maintenance ensures every corner of your business environment stays pristine and welcoming.
+          </p>
+          
+          <p class="text-gray-500 text-sm mb-6 leading-relaxed">
+            From small startups to corporate headquarters, we customize our cleaning protocols to match your office layout, workflow, and specific requirements. We work during off-hours to never disrupt your business operations.
+          </p>
+          
+          <div class="space-y-3">
+            <div class="flex items-start group/item">
+              <span class="text-[#C70000] text-xl mr-3 transition-transform duration-300 group-hover/item:scale-125">✓</span>
+              <div>
+                <h4 class="text-[#000066] font-['Montserrat'] mb-1">Workstation Sanitization</h4>
+                <p class="text-gray-500 text-sm">Thorough cleaning and disinfection of desks, keyboards, phones, and shared surfaces to maintain a healthy work environment.</p>
+              </div>
+            </div>
+            
+            <div class="flex items-start group/item">
+              <span class="text-[#C70000] text-xl mr-3 transition-transform duration-300 group-hover/item:scale-125">✓</span>
+              <div>
+                <h4 class="text-[#000066] font-['Montserrat'] mb-1">Kitchen & Break Room Care</h4>
+                <p class="text-gray-500 text-sm">Complete cleaning of communal areas including appliances, countertops, sinks, and waste management.</p>
+              </div>
+            </div>
+            
+            <div class="flex items-start group/item">
+              <span class="text-[#C70000] text-xl mr-3 transition-transform duration-300 group-hover/item:scale-125">✓</span>
+              <div>
+                <h4 class="text-[#000066] font-['Montserrat'] mb-1">Restroom Deep Cleaning</h4>
+                <p class="text-gray-500 text-sm">Professional sanitization with hospital-grade products, restocking supplies, and odor elimination.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start group/item">
+              <span class="text-[#C70000] text-xl mr-3 transition-transform duration-300 group-hover/item:scale-125">✓</span>
+              <div>
+                <h4 class="text-[#000066] font-['Montserrat'] mb-1">Floor Care & Maintenance</h4>
+                <p class="text-gray-500 text-sm">Vacuuming, mopping, and specialized treatments for carpet, tile, hardwood, and other flooring types.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Industrial Spaces Card -->
+        <div class="bg-gradient-to-b from-gray-50 to-white p-8 rounded-3xl transition-all duration-500 hover:shadow-2xl hover:-translate-y-3 border border-gray-100 animate-fade-in group">
+          <div class="mb-6 overflow-hidden rounded-2xl">
+            <img
+              src="/assets/images/commercial 2.png"
+              alt="Industrial cleaning"
+              class="w-full h-56 object-cover transition-transform duration-700 group-hover:scale-110"
+            />
+          </div>
+          
+          <div class="mb-4">
+            <span class="text-[#C70000] text-xs font-semibold tracking-wider uppercase bg-red-50 px-3 py-1 rounded-md">Heavy Duty</span>
+          </div>
+          
+          <h3 class="text-3xl font-bold text-[#000066] mb-4">
+            Industrial Spaces
+          </h3>
+          
+          <p class="text-gray-600 mb-4 leading-relaxed">
+            Warehouses, factories, and large facilities require specialized cleaning expertise. We bring industrial-grade equipment and trained professionals to handle the toughest jobs efficiently.
+          </p>
+          
+          <p class="text-gray-500 text-sm mb-6 leading-relaxed">
+            Safety and compliance are paramount in industrial settings. Our team is trained in OSHA standards and uses appropriate PPE while delivering thorough cleaning without compromising your operational safety protocols.
+          </p>
+          
+          <div class="space-y-3">
+            <div class="flex items-start group/item">
+              <span class="text-[#C70000] text-xl mr-3 transition-transform duration-300 group-hover/item:scale-125">✓</span>
+              <div>
+                <h4 class="text-[#000066] font-['Montserrat'] mb-1">High-Traffic Area Maintenance</h4>
+                <p class="text-gray-500 text-sm">Regular cleaning of loading docks, corridors, and production areas to prevent buildup and maintain safety standards.</p>
+              </div>
+            </div>
+            
+            <div class="flex items-start group/item">
+              <span class="text-[#C70000] text-xl mr-3 transition-transform duration-300 group-hover/item:scale-125">✓</span>
+              <div>
+                <h4 class="text-[#000066] font-['Montserrat'] mb-1">Machinery & Equipment Cleaning</h4>
+                <p class="text-gray-500 text-sm">Safe removal of dust, grease, and debris from industrial equipment without interfering with operations.</p>
+              </div>
+            </div>
+            
+            <div class="flex items-start group/item">
+              <span class="text-[#C70000] text-xl mr-3 transition-transform duration-300 group-hover/item:scale-125">✓</span>
+              <div>
+                <h4 class="text-[#000066] font-['Montserrat'] mb-1">Safety Compliance Support</h4>
+                <p class="text-gray-500 text-sm">Documentation and protocols that help you meet health and safety inspection requirements.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start group/item">
+              <span class="text-[#C70000] text-xl mr-3 transition-transform duration-300 group-hover/item:scale-125">✓</span>
+              <div>
+                <h4 class="text-[#000066] font-['Montserrat'] mb-1">Waste Management Solutions</h4>
+                <p class="text-gray-500 text-sm">Proper disposal and recycling services tailored to industrial waste requirements and environmental regulations.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Specialized Services Card -->
+        <div class="bg-gradient-to-b from-gray-50 to-white p-8 rounded-3xl transition-all duration-500 hover:shadow-2xl hover:-translate-y-3 border border-gray-100 animate-fade-in group">
+          <div class="mb-6 overflow-hidden rounded-2xl">
+            <img
+              src="/assets/images/commercial 3.png"
+              alt="Specialized cleaning"
+              class="w-full h-56 object-cover transition-transform duration-700 group-hover:scale-110"
+            />
+          </div>
+          
+          <div class="mb-4">
+            <span class="text-[#C70000] text-xs font-semibold tracking-wider uppercase bg-red-50 px-3 py-1 rounded-md">Custom Solutions</span>
+          </div>
+          
+          <h3 class="text-3xl font-bold text-[#000066] mb-4">
+            Specialized Services
+          </h3>
+          
+          <p class="text-gray-600 mb-4 leading-relaxed">
+            Every business has unique cleaning challenges. Whether it's post-construction cleanup, event preparation, or industry-specific requirements, our specialized services deliver expert solutions.
+          </p>
+          
+          <p class="text-gray-500 text-sm mb-6 leading-relaxed">
+            We invest in specialized training and equipment to handle situations that require extra care, precision, or expertise. No job is too complex or unusual for our experienced team to tackle professionally.
+          </p>
+          
+          <div class="space-y-3">
+            <div class="flex items-start group/item">
+              <span class="text-[#C70000] text-xl mr-3 transition-transform duration-300 group-hover/item:scale-125">✓</span>
+              <div>
+                <h4 class="text-[#000066] font-['Montserrat'] mb-1">Carpet & Upholstery Deep Clean</h4>
+                <p class="text-gray-500 text-sm">Professional extraction cleaning, stain removal, and fabric protection for commercial-grade carpets and furniture.</p>
+              </div>
+            </div>
+            
+            <div class="flex items-start group/item">
+              <span class="text-[#C70000] text-xl mr-3 transition-transform duration-300 group-hover/item:scale-125">✓</span>
+              <div>
+                <h4 class="text-[#000066] font-['Montserrat'] mb-1">Window & Glass Treatment</h4>
+                <p class="text-gray-500 text-sm">Streak-free cleaning for windows, glass partitions, and facades including high-rise and hard-to-reach areas.</p>
+              </div>
+            </div>
+            
+            <div class="flex items-start group/item">
+              <span class="text-[#C70000] text-xl mr-3 transition-transform duration-300 group-hover/item:scale-125">✓</span>
+              <div>
+                <h4 class="text-[#000066] font-['Montserrat'] mb-1">Event Preparation & Cleanup</h4>
+                <p class="text-gray-500 text-sm">Pre-event deep cleaning and rapid post-event restoration for conferences, trade shows, and corporate gatherings.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start group/item">
+              <span class="text-[#C70000] text-xl mr-3 transition-transform duration-300 group-hover:item:scale-125">✓</span>
+              <div>
+                <h4 class="text-[#000066] font-['Montserrat'] mb-1">Post-Construction Cleaning</h4>
+                <p class="text-gray-500 text-sm">Comprehensive cleanup after renovations including dust removal, debris clearing, and final detailing.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Why Choose Us for Business Section -->
+      <div class="mt-24 mb-16">
+        <h3 class="text-4xl font-bold text-center text-[#C70000] mb-4 animate-fade-in">Why Businesses Choose Us</h3>
+        <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">We understand the unique demands of commercial cleaning and deliver consistent, reliable service that supports your business goals.</p>
+        
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-gradient-to-br from-[#000066] to-[#000099] text-white p-8 rounded-2xl text-center transition-transform duration-500 hover:scale-105 animate-fade-in-up shadow-xl">
+            <h4 class="text-xl font-bold mb-3">Flexible Scheduling</h4>
+            <p class="text-gray-200">We work around your business hours—early morning, evenings, or weekends. Your operations never have to stop for cleaning.</p>
+          </div>
+          
+          <div class="bg-gradient-to-br from-[#000066] to-[#000099] text-white p-8 rounded-2xl text-center transition-transform duration-500 hover:scale-105 animate-fade-in-up shadow-xl">
+            <h4 class="text-xl font-bold mb-3">Trained & Vetted Staff</h4>
+            <p class="text-gray-200">All team members undergo background checks and professionally training for your peace of mind.</p>
+          </div>
+          
+          <div class="bg-gradient-to-br from-[#000066] to-[#000099] text-white p-8 rounded-2xl text-center transition-transform duration-500 hover:scale-105 animate-fade-in-up shadow-xl">
+            <h4 class="text-xl font-bold mb-3">Quality Assurance</h4>
+            <p class="text-gray-200">Regular inspections, customer feedback systems, and detailed cleaning checklists ensure consistent, high-quality results.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Additional Benefits Section -->
+      <div class="mt-20 bg-slate-200 rounded-3xl p-12 animate-fade-in">
+        <h3 class="text-3xl font-bold text-[#000066] mb-8 text-center">Commercial Cleaning Benefits</h3>
+        <div class="grid md:grid-cols-2 gap-8">
+          <div class="flex items-start space-x-4">
+            <div class="flex-shrink-0 w-12 h-12 bg-[#C70000] rounded-full flex items-center justify-center text-white font-bold text-xl">1</div>
+            <div>
+              <h4 class="text-lg font-bold text-[#000066] mb-2">Enhanced Professional Image</h4>
+              <p class="text-gray-600">A clean workplace makes a powerful statement to clients, visitors, and employees about your commitment to excellence.</p>
+            </div>
+          </div>
+          
+          <div class="flex items-start space-x-4">
+            <div class="flex-shrink-0 w-12 h-12 bg-[#C70000] rounded-full flex items-center justify-center text-white font-bold text-xl">2</div>
+            <div>
+              <h4 class="text-lg font-bold text-[#000066] mb-2">Improved Employee Health</h4>
+              <p class="text-gray-600">Regular professional cleaning reduces sick days by eliminating germs, allergens, and maintaining air quality.</p>
+            </div>
+          </div>
+          
+          <div class="flex items-start space-x-4">
+            <div class="flex-shrink-0 w-12 h-12 bg-[#C70000] rounded-full flex items-center justify-center text-white font-bold text-xl">3</div>
+            <div>
+              <h4 class="text-lg font-bold text-[#000066] mb-2">Cost-Effective Solutions</h4>
+              <p class="text-gray-600">Preventive maintenance extends the life of your assets—carpets, floors, and equipment—saving money long-term.</p>
+            </div>
+          </div>
+          
+          <div class="flex items-start space-x-4">
+            <div class="flex-shrink-0 w-12 h-12 bg-[#C70000] rounded-full flex items-center justify-center text-white font-bold text-xl">4</div>
+            <div>
+              <h4 class="text-lg font-bold text-[#000066] mb-2">Increased Productivity</h4>
+              <p class="text-gray-600">Clean, organized workspaces boost employee morale and productivity. A clutter-free environment fosters focus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+    <!-- End of Commercial Services Section -->
 
 
             <!-- Contact Section -->
