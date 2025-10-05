@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simscore Holdings - Professional Cleaning Services in Harare</title>
+    <title>Simscore Holdings - Professional Cleaning Services</title>
+       <link rel="icon" type="image/x-icon" href="/favicon.png">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style type="text/tailwindcss">
@@ -17,6 +18,7 @@
         }
     </style>
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/src/about.css">
 </head>
 <body class="antialiased">
     <!-- Accessibility Skip Link -->
@@ -143,6 +145,27 @@
         <div class="absolute inset-0 z-0 overflow-hidden">
             <div class="absolute top-20 left-10 w-72 h-72 bg-purple-500/10 rounded-md blur-3xl animate-pulse"></div>
             <div class="absolute bottom-20 right-10 w-96 h-96 bg-indigo-500/10 rounded-md blur-3xl animate-pulse" style="animation-delay: 1s;"></div>
+        </div>
+
+             <!-- Cleaning Theme Decorations - Bubbles -->
+        <div class="absolute inset-0 opacity-20 pointer-events-none">
+            <div class="absolute left-[10%] bottom-0 w-[60px] h-[60px] bg-white/30 rounded-full animate-[bubble_4s_ease-in-out_infinite]"></div>
+            <div class="absolute left-[25%] bottom-0 w-[40px] h-[40px] bg-white/30 rounded-full animate-[bubble_4s_ease-in-out_1s_infinite]"></div>
+            <div class="absolute left-[70%] bottom-0 w-[80px] h-[80px] bg-white/30 rounded-full animate-[bubble_4s_ease-in-out_0.5s_infinite]"></div>
+            <div class="absolute left-[85%] bottom-0 w-[50px] h-[50px] bg-white/30 rounded-full animate-[bubble_4s_ease-in-out_1.5s_infinite]"></div>
+            <div class="absolute left-[50%] bottom-0 w-[35px] h-[35px] bg-white/30 rounded-full animate-[bubble_4s_ease-in-out_2s_infinite]"></div>
+        </div>
+        
+        <!-- Sparkle effects -->
+        <div class="absolute inset-0 opacity-60 pointer-events-none">
+            <div class="absolute top-[15%] left-[20%] w-1 h-1 bg-white rounded-full animate-[sparkle_2s_ease-in-out_infinite]"></div>
+            <div class="absolute top-[25%] left-[80%] w-1 h-1 bg-white rounded-full animate-[sparkle_2s_ease-in-out_0.5s_infinite]"></div>
+            <div class="absolute top-[40%] left-[15%] w-1 h-1 bg-white rounded-full animate-[sparkle_2s_ease-in-out_1s_infinite]"></div>
+            <div class="absolute top-[60%] left-[85%] w-1 h-1 bg-white rounded-full animate-[sparkle_2s_ease-in-out_1.5s_infinite]"></div>
+            <div class="absolute top-[75%] left-[40%] w-1 h-1 bg-white rounded-full animate-[sparkle_2s_ease-in-out_2s_infinite]"></div>
+            <div class="absolute top-[35%] left-[60%] w-1 h-1 bg-white rounded-full animate-[sparkle_2s_ease-in-out_0.8s_infinite]"></div>
+            <div class="absolute top-[55%] left-[25%] w-1 h-1 bg-white rounded-full animate-[sparkle_2s_ease-in-out_1.2s_infinite]"></div>
+            <div class="absolute top-[70%] left-[75%] w-1 h-1 bg-white rounded-full animate-[sparkle_2s_ease-in-out_1.8s_infinite]"></div>
         </div>
 
         <!-- Content -->
@@ -627,56 +650,90 @@ Today, we've grown into one of Zimbabwe's most trusted cleaning partners, servin
     </main>
 
     <!-- Footer -->
-    <footer class="bg-[#000066] text-white py-12">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-4 gap-8 mb-8">
-                <div>
-                    <div class="flex items-center space-x-2 mb-4">
-
-                        <span class="text-2xl font-bold">Simscore Holdings</span>
+   <!-- Footer -->
+<footer class="bg-[#000066] text-white py-16 relative overflow-hidden">
+    <!-- Decorative geometric elements -->
+    <div class="absolute top-0 left-0 w-64 h-64 bg-white opacity-5 rounded-full -translate-x-32 -translate-y-32"></div>
+    <div class="absolute bottom-0 right-0 w-96 h-96 bg-white opacity-5 rounded-full translate-x-48 translate-y-48"></div>
+    <div class="absolute top-1/2 left-1/4 w-2 h-32 bg-white opacity-10 rotate-45"></div>
+    <div class="absolute top-1/3 right-1/3 w-24 h-2 bg-white opacity-10"></div>
+    
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <!-- Main footer content with asymmetric layout -->
+        <div class="grid md:grid-cols-12 gap-8 mb-12">
+            <!-- Brand section - larger -->
+            <div class="md:col-span-5">
+                <div class="mb-6">
+                    <span class="text-3xl font-bold block mb-2">Simscore Holdings</span>
+    
+                </div>
+                <p class="text-gray-300 text-lg leading-relaxed mb-6">We believe a clean space is more than just tidy — it's a foundation for success, health, and happiness.</p>
+                
+                <!-- Contact highlight -->
+                <div class="bg-white/10 backdrop-blur-sm p-4 rounded-lg inline-block">
+                    <div class="space-y-1">
+                        <p class="text-sm text-gray-300">Get in touch</p>
+                        <p class="text-xl font-bold">0779 507 795</p>
+                        <p class="text-lg">0735 397 707</p>
                     </div>
-                    <p class="text-gray-300">We believe a clean space is more than just tidy — it's a foundation for success, health, and happiness.</p>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-lg mb-4">Quick Links</h4>
-                    <ul class="space-y-2">
-                        <li><a href="/index.html" class="text-gray-300 hover:text-white transition-colors duration-200">Home</a></li>
-                        <li><a href="/pages/about.html" class="text-gray-300 hover:text-white transition-colors duration-200">Who We Are</a></li>
-                        <li><a href="/pages/services.html" class="text-gray-300 hover:text-white transition-colors duration-200">What We Do</a></li>
-                        <li><a href="/pages/commercial.html" class="text-gray-300 hover:text-white transition-colors duration-200">Commercial Services</a></li>
-                        <li><a href="/pages/residential.html" class="text-gray-300 hover:text-white transition-colors duration-200">Residential Services</a></li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-lg mb-4">Our Services</h4>
-                    <ul class="space-y-2 text-gray-300">
-                        <li>Office Cleaning</li>
-                        <li>Home Cleaning</li>
-                        <li>Deep Cleaning</li>
-                        <li>Carpet Cleaning</li>
-                        <li>Event Cleanup</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="font-bold text-lg mb-4">Contact Info</h4>
-                    <ul class="space-y-2 text-gray-300">
-                        <li>0779 507 795</li>
-                        <li>0735 397 707</li>
-                        <li>42 Sam Nujoma Street</li>
-                        <li>Harare, Zimbabwe</li>
-                    </ul>
                 </div>
             </div>
 
-            <div class="border-t border-gray-700 pt-8 text-center">
-                <p class="text-gray-300 mb-2">&copy; 2025 Simscore Holdings. All rights reserved.</p>
-                <p class="text-gray-400 text-sm">Designed and developed by <a href="https://www.claudius-mainja.com" target="_blank" rel="noopener noreferrer" class="text-[#C70000] hover:text-white transition-colors duration-200">Claudius Mainja</a></p>
+            <!-- Navigation columns - compact -->
+            <div class="md:col-span-7 grid md:grid-cols-3 gap-8">
+                <div>
+                    <h4 class="font-bold text-lg mb-2 relative inline-block">
+                        Quick Links
+
+                    </h4>
+                    <ul class="space-y-3 mt-6">
+                        <li><a href="/index.html" class="text-gray-300 hover:text-white hover:translate-x-1 inline-block transition-all duration-200">Home</a></li>
+                        <li><a href="/pages/about.html" class="text-gray-300 hover:text-white hover:translate-x-1 inline-block transition-all duration-200">Who We Are</a></li>
+                        <li><a href="/pages/services.html" class="text-gray-300 hover:text-white hover:translate-x-1 inline-block transition-all duration-200">What We Do</a></li>
+                        <li><a href="/pages/commercial.html" class="text-gray-300 hover:text-white hover:translate-x-1 inline-block transition-all duration-200">Commercial Services</a></li>
+                        <li><a href="/pages/residential.html" class="text-gray-300 hover:text-white hover:translate-x-1 inline-block transition-all duration-200">Residential Services</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-lg mb-2 relative inline-block">
+                        Our Services
+
+                    </h4>
+                    <ul class="space-y-3 mt-6 text-gray-300">
+                        <li class="hover:text-white transition-colors duration-200">Office Cleaning</li>
+                        <li class="hover:text-white transition-colors duration-200">Home Cleaning</li>
+                        <li class="hover:text-white transition-colors duration-200">Deep Cleaning</li>
+                        <li class="hover:text-white transition-colors duration-200">Carpet Cleaning</li>
+                        <li class="hover:text-white transition-colors duration-200">Event Cleanup</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-lg mb-2 relative inline-block">
+                        Visit Us
+
+                    </h4>
+                    <div class="space-y-2 mt-6 text-gray-300">
+                        <p class="leading-relaxed">East Wing, Fourth Floor ICL House, 42 Sam Nujoma Street. Harare, Zimbabwe</p>
+                    </div>
+                </div>
             </div>
         </div>
-    </footer>
+
+        <!-- Bottom bar with creative layout -->
+        <div class="border-t border-white border-opacity-20 pt-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-gray-300">&copy; 2025 Simscore Holdings. All rights reserved.</p>
+                <div class="flex items-center gap-2">
+                    <span class="text-gray-400 text-sm">Designed and developed by</span>
+                    <a href="https://www.claudius-mainja.com" target="_blank" rel="noopener noreferrer" class="text-[#C70000] hover:text-white transition-colors duration-200 font-semibold">Claudius Mainja</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End of Footer -->
 
     <!-- Back to Top Button -->
     <button id="back-to-top" class="fixed bottom-8 right-8 bg-[#C70000] text-white w-12 h-12 rounded-md shadow-lg opacity-0 invisible hover:bg-[#A00000] transition-all duration-300 transform hover:scale-110 z-40" aria-label="Back to top">
