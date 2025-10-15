@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Simscore Holdings | Professional Cleaning Services</title>
+    <title>About Us -  Simscore Cleaning Services | Professional Cleaning Services</title>
        <link rel="icon" type="image/x-icon" href="/favicon.png">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -24,79 +24,63 @@
     <!-- Accessibility Skip Link -->
     <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-white focus:text-[#000066] focus:rounded">Skip to main content</a>
 
-    <!-- Navigation starts -->
-    <nav class="fixed w-full top-0 z-50 transition-all duration-500" id="navbar">
+<!-- Navigation -->
+    <nav class="fixed w-full top-0 z-50 bg-white shadow-md transition-shadow duration-300" id="navbar">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center h-20">
+            <div class="flex justify-between items-center h-16">
                 <!-- Logo -->
-                <div class="flex items-center space-x-2">
-                    <a href="/index.html" class="flex items-center transform hover:scale-110 transition-all duration-300 group">
-                        <div class="relative">
-                            <div class="absolute inset-0 rounded-md blur opacity-0 group-hover:opacity-75 transition-opacity duration-300"></div>
-                            <img src="/logo.png" alt="Simscore Holdings Logo" class="h-12 w-auto relative z-10">
-                        </div>
+                <div class="flex items-center">
+                    <a href="/index.html" class="flex items-center transition-transform duration-300 hover:scale-105">
+                        <img src="/logo.png" alt="Simscore Cleaning Services Logo" class="h-10 w-auto">
                     </a>
                 </div>
                 
                 <!-- Desktop Menu -->
                 <div class="hidden md:flex items-center space-x-1">
-                    <a href="/index.html" class="relative px-4 py-2 text-white font-medium group overflow-hidden rounded-lg">
-                        <span class="relative z-10 group-hover:text-white transition-colors duration-300">Home</span>
-                        <div class="absolute inset-0 bg-white/10 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left rounded-lg"></div>
+                    <a href="/index.html" class="px-4 py-2 text-gray-700 font-medium hover:text-red-600 transition-colors duration-200 rounded-md hover:bg-gray-50">
+                        Home
                     </a>
                     
-                    <a href="/pages/about.html" class="relative px-4 py-2 text-white font-medium group overflow-hidden rounded-lg">
-                        <span class="relative z-10 group-hover:text-white transition-colors duration-300">Who We Are</span>
-                        <div class="absolute inset-0 bg-white/10 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left rounded-lg"></div>
+                    <a href="/pages/about.html" class="px-4 py-2 text-gray-700 font-medium hover:text-red-600 transition-colors duration-200 rounded-md hover:bg-gray-50">
+                        Who We Are
                     </a>
                     
                     <!-- Dropdown -->
                     <div class="relative group">
-                        <button class="relative px-4 py-2 text-white font-medium flex items-center gap-1 rounded-lg overflow-hidden">
-                            <span class="relative z-10">What We Do</span>
-                            <svg class="w-4 h-4 transform group-hover:rotate-180 transition-transform duration-300 relative z-10" fill="currentColor" viewBox="0 0 20 20">
+                        <button class="px-4 py-2 text-gray-700 font-medium flex items-center gap-1 rounded-md hover:bg-gray-50 hover:text-red-600 transition-colors duration-200">
+                            <span>What We Do</span>
+                            <svg class="w-4 h-4 transform group-hover:rotate-180 transition-transform duration-200" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
                             </svg>
-                            <div class="absolute inset-0 bg-white/10 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left rounded-lg"></div>
                         </button>
                         
                         <!-- Dropdown Menu -->
-                        <div class="absolute left-0 mt-3 w-64 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 -translate-y-2 transition-all duration-300 transform">
-                            <div class="bg-white/95 backdrop-blur-xl rounded-2xl shadow-2xl border border-gray-100 overflow-hidden">
-                                <a href="/pages/commercial.html" class="flex items-center gap-3 px-6 py-4 text-gray-700 hover:bg-gradient-to-r hover:from-red-700 hover:to-red-800 hover:text-white transition-all duration-300 group/item">
-                                    <div class="w-2 h-2 rounded-md bg-indigo-600 group-hover/item:bg-white transition-colors duration-300"></div>
-                                    <span class="font-medium">Commercial Services</span>
+                        <div class="absolute left-0 mt-2 w-56 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                            <div class="bg-white rounded-lg shadow-lg border border-gray-200 overflow-hidden">
+                                <a href="/pages/commercial.html" class="block px-4 py-3 text-gray-700 hover:bg-red-50 hover:text-red-600 transition-colors duration-200">
+                                    Commercial Services
                                 </a>
-                                <div class="h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent"></div>
-                                <a href="/pages/residential.html" class="flex items-center gap-3 px-6 py-4 text-gray-700 hover:bg-gradient-to-r hover:from-red-700 hover:to-red-800 hover:text-white transition-all duration-300 group/item">
-                                    <div class="w-2 h-2 rounded-md bg-red-600 group-hover/item:bg-white transition-colors duration-300"></div>
-                                    <span class="font-medium">Residential Services</span>
+                                <div class="h-px bg-gray-200"></div>
+                                <a href="/pages/residential.html" class="block px-4 py-3 text-gray-700 hover:bg-red-50 hover:text-red-600 transition-colors duration-200">
+                                    Residential Services
                                 </a>
                             </div>
                         </div>
                     </div>
                     
-                    <a href="/pages/contact.html" class="relative px-4 py-2 text-white font-medium group overflow-hidden rounded-lg">
-                        <span class="relative z-10 group-hover:text-white transition-colors duration-300">Contact Us</span>
-                        <div class="absolute inset-0 bg-white/10 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left rounded-lg"></div>
+                    <a href="/pages/contact.html" class="px-4 py-2 text-gray-700 font-medium hover:text-red-600 transition-colors duration-200 rounded-md hover:bg-gray-50">
+                        Contact Us
                     </a>
                     
                     <!-- CTA Button -->
-                    <a href="mailto:info@simscore.co.zw" target="_blank" class="ml-4 relative group overflow-hidden bg-gradient-to-r from-red-600 to-red-700 text-white px-6 py-2.5 rounded-md font-medium shadow-lg transform hover:scale-105 transition-all duration-300">
-                        <span class="relative z-10 flex items-center gap-2">
-                            Get a Quote
-                            <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
-                            </svg>
-                        </span>
-                        <div class="absolute inset-0 bg-gradient-to-r from-red-700 to-red-800 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
+                    <a href="mailto:info@simscore.co.zw" target="_blank" class="ml-4 bg-red-600 text-white px-6 py-2 rounded-md font-medium hover:bg-red-700 transition-colors duration-200 shadow-sm hover:shadow-md">
+                        Get a Quote
                     </a>
                 </div>
 
                 <!-- Mobile Menu Button -->
-                <button id="mobile-menu-btn" class="md:hidden relative w-10 h-10 text-gray-700 focus:outline-none group" aria-label="Toggle menu">
-                    <div class="absolute inset-0 bg-gray-200/50 rounded-lg transform group-hover:scale-110 transition-transform duration-300"></div>
-                    <svg class="w-6 h-6 relative z-10 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <button id="mobile-menu-btn" class="md:hidden p-2 text-gray-700 hover:bg-gray-100 rounded-md transition-colors duration-200" aria-label="Toggle menu">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
                     </svg>
                 </button>
@@ -104,31 +88,41 @@
         </div>
 
         <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden md:hidden bg-white/95 backdrop-blur-xl shadow-2xl border-t border-gray-100">
-            <div class="px-4 pt-4 pb-6 space-y-1 max-w-7xl mx-auto">
-                <a href="/index.html" class="block py-3 px-4 text-gray-700 hover:bg-gradient-to-r hover:from-indigo-600 hover:to-purple-600 hover:text-white rounded-xl transition-all duration-300 font-medium">Home</a>
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200">
+            <div class="px-4 py-4 space-y-1">
+                <a href="/index.html" class="block py-2 px-4 text-gray-700 hover:bg-gray-50 hover:text-red-600 rounded-md transition-colors duration-200 font-medium">
+                    Home
+                </a>
                 
-                <a href="/pages/about.html" class="block py-3 px-4 text-gray-700 hover:bg-gradient-to-r hover:from-indigo-600 hover:to-purple-600 hover:text-white rounded-xl transition-all duration-300 font-medium">Who We Are</a>
+                <a href="/pages/about.html" class="block py-2 px-4 text-gray-700 hover:bg-gray-50 hover:text-red-600 rounded-md transition-colors duration-200 font-medium">
+                    Who We Are
+                </a>
                 
                 <div class="pl-4 space-y-1">
-                    <div class="flex items-center gap-2 py-2 text-gray-500 text-sm font-semibold">
-                        <div class="w-8 h-px bg-gradient-to-r from-indigo-600 to-transparent"></div>
+                    <div class="py-2 text-gray-500 text-sm font-semibold">
                         Services
                     </div>
-                    <a href="/pages/commercial.html" class="block py-3 px-4 text-gray-600 hover:bg-gradient-to-r hover:from-indigo-500 hover:to-purple-500 hover:text-white rounded-xl transition-all duration-300">Commercial Services</a>
-                    <a href="/pages/residential.html" class="block py-3 px-4 text-gray-600 hover:bg-gradient-to-r hover:from-indigo-500 hover:to-purple-500 hover:text-white rounded-xl transition-all duration-300">Residential Services</a>
+                    <a href="/pages/commercial.html" class="block py-2 px-4 text-gray-600 hover:bg-gray-50 hover:text-red-600 rounded-md transition-colors duration-200">
+                        Commercial Services
+                    </a>
+                    <a href="/pages/residential.html" class="block py-2 px-4 text-gray-600 hover:bg-gray-50 hover:text-red-600 rounded-md transition-colors duration-200">
+                        Residential Services
+                    </a>
                 </div>
                 
-                <a href="/pages/contact.html" class="block py-3 px-4 text-gray-700 hover:bg-gradient-to-r hover:from-indigo-600 hover:to-purple-600 hover:text-white rounded-xl transition-all duration-300 font-medium">Contact Us</a>
+                <a href="/pages/contact.html" class="block py-2 px-4 text-gray-700 hover:bg-gray-50 hover:text-red-600 rounded-md transition-colors duration-200 font-medium">
+                    Contact Us
+                </a>
                 
-                <a href="mailto:info@simscore.co.zw" target="_blank" class="block mt-4 bg-gradient-to-r from-red-600 to-red-700 text-white px-6 py-3 rounded-xl text-center font-medium shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
-                    Get a Quote →
+                <a href="mailto:info@simscore.co.zw" target="_blank" class="block mt-3 bg-red-600 text-white px-6 py-2 rounded-md text-center font-medium hover:bg-red-700 transition-colors duration-200">
+                    Get a Quote
                 </a>
             </div>
         </div>
     </nav>
 
-    <!--Navbar Ends-->
+    <!-- Spacer for fixed navbar -->
+    <div class="h-16"></div>
 
     <!-- Main Content -->
     <main id="main-content">
@@ -234,13 +228,18 @@
                 <div class="opacity-0 animate-slideInRight">
                     <h2 class="text-4xl md:text-5xl font-bold text-[#000066] mb-6">Our Story</h2>
                     <p class="text-lg leading-relaxed mb-6 text-gray-700">
-                        Founded in 2021, Simscore Holdings was born from a simple belief: everyone deserves a clean, healthy space to live and work. Based in Harare, Zimbabwe, we've grown into a trusted name in professional cleaning.
+  Simscore Cleaning Services, a division of Simscore Investments (Pvt) Ltd, was incorporated on 30 December 2004 with the vision of creating a dust-free, safe, and healthy environment for workplaces and homes.
+Our core business is the provision of contract and on-demand cleaning services for commercial, industrial, institutional, retail, and domestic clients. We specialize in:
+<ul class="list-disc list-inside mb-6">
+    <li>Floor, wall, and window cleaning</li>
+    <li>Toilet and washroom maintenance</li>
+    <li>Carpet and Upholstery Cleaning</li>
+    <li>Office furniture cleaning</li>
+    <li>Grounds maintenance</li>
+</ul>
                     </p>
                     <p class="text-lg leading-relaxed mb-6 text-gray-700">
-                        We understand that cleanliness goes beyond what meets the eye. It's about creating environments where people feel safe, productive, and comfortable. Whether it's your office, home, or community space, we bring dedication and care to every job.
-                    </p>
-                    <p class="text-lg leading-relaxed text-gray-700">
-                        Our team combines modern cleaning methods with eco-friendly products, ensuring results that are both effective and environmentally responsible.
+With a highly skilled team, advanced equipment, and environmentally friendly cleaning solutions, we are committed to providing reliable, efficient, and professional cleaning services.
                     </p>
                 </div>
             </div>
@@ -261,7 +260,7 @@
                     </div>
                     <h3 class="text-3xl font-bold text-[#000066] mb-4">Our Mission</h3>
                     <p class="text-lg leading-relaxed text-gray-700">
-                        To raise the standard of cleaning services in Zimbabwe by delivering quality, reliable, and sustainable cleaning solutions that enhance productivity and comfort for businesses and households alike.
+To be the preferred provider of cleaning solutions in Zimbabwe, operating at global standards.
                     </p>
                 </div>
 
@@ -275,7 +274,7 @@
                     </div>
                     <h3 class="text-3xl font-bold text-[#000066] mb-4">Our Vision</h3>
                     <p class="text-lg leading-relaxed text-gray-700">
-                        To become Zimbabwe's most trusted and preferred cleaning partner, known for excellence, integrity, and customer satisfaction.
+       To deliver refreshing, pollution-free environments through innovative, flexible, and competitive cleaning solutions. We are guided by integrity, honesty, transparency, and reliability to achieve Total Customer Satisfaction (TCS).
                     </p>
                 </div>
             </div>
@@ -290,7 +289,7 @@
                 <div class="opacity-0 animate-slideInLeft">
                     <h2 class="text-4xl md:text-5xl font-bold mb-6">Our Promise to You</h2>
                     <p class="text-xl leading-relaxed mb-8">
-                        At Simscore Holdings, we don't just clean—we care.
+                        At  Simscore Cleaning Services, we don't just clean—we care.
                     </p>
                     <p class="text-lg leading-relaxed mb-8">
                         Our commitment is to provide you with an environment that reflects your values, boosts productivity, and enhances well-being. We treat every space like it's our own, because we know how much it matters to you.
@@ -324,7 +323,7 @@
                 </div>
             </div>
 
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <!-- Value 1 -->
                 <div class="group relative bg-white rounded-2xl p-8 border-2 border-gray-100 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-[#000066]/10 overflow-hidden">
                     <div class="absolute -top-4 -right-4 text-9xl font-bold text-[#000066] opacity-5 group-hover:opacity-10 transition-opacity">01</div>
@@ -371,21 +370,6 @@
                 </div>
 
                 <!-- Value 4 -->
-                <div class="group relative bg-white rounded-2xl p-8 border-2 border-gray-100 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-[#000066]/10 overflow-hidden">
-                    <div class="absolute -top-4 -right-4 text-9xl font-bold text-[#000066] opacity-5 group-hover:opacity-10 transition-opacity">04</div>
-                    <div class="relative z-10">
-                        <div class="inline-block px-4 py-2 bg-[#000066]/5 rounded-full mb-6">
-                            <span class="text-sm font-semibold text-[#000066] tracking-wider uppercase">Core Value</span>
-                        </div>
-                        <h3 class="text-3xl font-bold text-[#000066] mb-4">Sustainability</h3>
-                        <p class="text-gray-700 leading-relaxed text-lg">
-                            We embrace eco-friendly methods to protect our environment for future generations.
-                        </p>
-                    </div>
-                    <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-[#000066] to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                </div>
-
-                <!-- Value 5 -->
                 <div class="group relative bg-white rounded-2xl p-8 border-2 border-gray-100 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-[#141475]/10 overflow-hidden md:col-span-2 lg:col-span-1">
                     <div class="absolute -top-4 -right-4 text-9xl font-bold text-[#141475] opacity-5 group-hover:opacity-10 transition-opacity">05</div>
                     <div class="relative z-10">
@@ -636,9 +620,9 @@
                                     </div>
                                     <div>
                                         <p class="font-semibold text-[#000066]">Visit Our Office</p>
-                                        <p class="text-gray-600">East Wing, Fourth Floor</p>
-                                        <p class="text-gray-600">I C L House, 42 Sam Nujoma Street</p>
-                                        <p class="text-gray-600">Harare, Zimbabwe</p>
+                                        <p class="text-gray-600">4 Alex Smith Drive</p>
+                                        <p class="text-gray-600">Eastlea, Harare, Zimbabwe
+</p>
                                     </div>
                                 </div>
 
@@ -679,7 +663,6 @@
 
     </main>
 
-    <!-- Footer -->
    <!-- Footer -->
 <footer class="bg-[#000066] text-white py-16 relative overflow-hidden">
     <!-- Decorative geometric elements -->
@@ -694,7 +677,7 @@
             <!-- Brand section - larger -->
             <div class="md:col-span-5">
                 <div class="mb-6">
-                    <span class="text-3xl font-bold block mb-2">Simscore Holdings</span>
+                    <span class="text-3xl font-bold block mb-2"> Simscore Cleaning Services</span>
     
                 </div>
                 <p class="text-gray-300 text-lg leading-relaxed mb-6">We believe a clean space is more than just tidy — it's a foundation for success, health, and happiness.</p>
@@ -703,8 +686,9 @@
                 <div class="bg-white/10 backdrop-blur-sm p-4 rounded-lg inline-block">
                     <div class="space-y-1">
                         <p class="text-sm text-gray-300">Get in touch</p>
-                        <p class="text-xl font-bold">0779 507 795</p>
-                        <p class="text-lg">0735 397 707</p>
+                        <p class="text-xl font-bold">+263 (242) 7971845 </p>
+                        <p class="text-lg">+263 779 507 795 </p>
+ <p class="text-lg">+263 788 616 262</p>
                     </div>
                 </div>
             </div>
@@ -745,7 +729,7 @@
 
                     </h4>
                     <div class="space-y-2 mt-6 text-gray-300">
-                        <p class="leading-relaxed">East Wing, Fourth Floor ICL House, 42 Sam Nujoma Street. Harare, Zimbabwe</p>
+                        <p class="leading-relaxed"> 4 Alex Smith Drive, Eastlea, Harare, Zimbabwe</p>
                     </div>
                 </div>
             </div>
@@ -754,7 +738,7 @@
         <!-- Bottom bar with creative layout -->
         <div class="border-t border-white border-opacity-20 pt-8">
             <div class="flex flex-col md:flex-row justify-between items-center gap-4">
-                <p class="text-gray-300">&copy; 2025 Simscore Holdings. All rights reserved.</p>
+                <p class="text-gray-300">&copy; 2025  Simscore Cleaning Services. All rights reserved.</p>
                 <div class="flex items-center gap-2">
                     <span class="text-gray-400 text-sm">Designed and developed by</span>
                     <a href="https://www.claudius-mainja.com" target="_blank" rel="noopener noreferrer" class="text-[#C70000] hover:text-white transition-colors duration-200 font-semibold">Claudius Mainja</a>
